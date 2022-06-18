@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-image: url("https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  background-color: rgb(110, 110, 110);
+}
+.row {
+  margin: 1rem;
+  padding: 1rem;
+}
+.convertBox {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.convertBox1 {
+  background-color: aquamarine;
+}
+.headText {
+  text-align: center;
+  padding: 1rem 0;
+}
+.kTom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  /* background-color: bisque; */
+}
+.inputText {
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+.units {
+  font-size: 1.3rem;
+  margin: 0 1rem;
+  font-weight: 700;
+  display: inline-block;
+}
+.button {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  /* background-color: bisque; */
+}
+.btn {
+  text-align: center;
+  display: inline-block;
+  border: 0;
+  border-radius: 0.7rem;
+  background-color: rgb(66, 66, 66);
+  color: white;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+}
+.AnsBox {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  /* background-color: bisque; */
+}
+.ans {
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.convertBox2 {
+  margin: 1rem 0;
+  background-color: rgb(160, 198, 255);
+}
+.convertBox3 {
+  margin: 1rem 0;
+  background-color: rgb(245, 194, 252);
+}
+.convertBox4 {
+  margin: 1rem 0;
+  background-color: rgb(252, 219, 175);
+}
+
+@media screen and (max-width: 800px) {
+  .kTom {
+    grid-template-columns: 1fr;
+  }
+}

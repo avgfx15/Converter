@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <!-- Convert Km to Meter  -->
+
+        <div class="convertBox1 convertBox">
+          <h1 class="headText">Convert Km to Meter</h1>
+          <div class="kTom">
+            <div class="input">
+              <input type="number" id="data" class="inputText" />
+              <p class="units">Km</p>
+            </div>
+            <div class="button">
+              <button onclick="ConvertToMeter()" class="btn">
+                Convert To Meter
+              </button>
+            </div>
+            <div class="AnsBox">
+              <input type="number" id="mValue" class="inputText" />
+              <p class="units">Meters</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Convert Meter to Km  -->
+
+        <div class="convertBox2 convertBox">
+          <h1 class="headText">Convert Meter to Km</h1>
+          <div class="kTom">
+            <div class="input">
+              <input type="number" id="dataMeter" class="inputText" />
+              <p class="units">Meters</p>
+            </div>
+            <div class="button">
+              <button onclick="ConvertToKm()" class="btn">Convert To Km</button>
+            </div>
+            <div class="AnsBox">
+              <input type="number" id="kmValue" class="inputText" />
+              <p class="units">Km</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Convert Meter to Cm  -->
+
+        <div class="convertBox3 convertBox">
+          <h1 class="headText">Convert Meter to Cm</h1>
+          <div class="kTom">
+            <div class="input">
+              <input type="number" id="dataMeter1" class="inputText" />
+              <p class="units">Meters</p>
+            </div>
+            <div class="button">
+              <button onclick="ConvertToCm()" class="btn">Convert To Cm</button>
+            </div>
+            <div class="AnsBox">
+              <input type="number" id="cmValue" class="inputText" />
+              <p class="units">Cm</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Convert Km to Cm  -->
+
+        <div class="convertBox4 convertBox">
+          <h1 class="headText">Convert Meter to Cm</h1>
+          <div class="kTom">
+            <div class="input">
+              <input type="number" id="dataKm" class="inputText" />
+              <p class="units">Km</p>
+            </div>
+            <div class="button">
+              <button onclick="ConvertKmToCm()" class="btn">
+                Convert To Cm
+              </button>
+            </div>
+            <div class="AnsBox">
+              <input type="number" id="CmValue" class="inputText" />
+              <p class="units">Cm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="converter.js"></script>
+  </body>
+</html>
